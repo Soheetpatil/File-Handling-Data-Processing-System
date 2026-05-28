@@ -137,7 +137,13 @@ def main():
                 if not current_data:
                     print("No data loaded! Please read a file first.")
                     continue
+                if 'line_number' not in current_data[0]:
+                    headers = list(current_data[0].keys())
+                    print(f"Available fields: {', '.join(headers)}")
                 field = input("Enter field name to filter: ")
+                if 'line_number' not in current_data[0] and field not in current_data[0]:
+                    print(f"Error: Field '{field}' not found!")
+                    continue
                 value = input("Enter value to filter by: ")
                 filtered = filter_data(current_data, field, value)
                 print(f"\nFiltered results ({len(filtered)} records):")
@@ -153,7 +159,13 @@ def main():
                 if not current_data:
                     print("No data loaded! Please read a file first.")
                     continue
+                if 'line_number' not in current_data[0]:
+                    headers = list(current_data[0].keys())
+                    print(f"Available fields: {', '.join(headers)}")
                 field = input("Enter field name to sort by: ")
+                if 'line_number' not in current_data[0] and field not in current_data[0]:
+                    print(f"Error: Field '{field}' not found!")
+                    continue
                 numeric = input("Sort numerically? (y/n): ").lower() == 'y'
                 sorted_data = sort_data(current_data, field, numeric)
                 print("\nSorted results:")

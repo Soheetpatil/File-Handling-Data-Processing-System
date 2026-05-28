@@ -1,0 +1,8 @@
+{'roll_no': '101', 'name': 'Alice Smith', 'maths': '85', 'physics': '90', 'chemistry': '88', 'total': '263', 'result': 'Pass'}
+{'roll_no': '102', 'name': 'Bob Johnson', 'maths': '72', 'physics': '65', 'chemistry': '70', 'total': '207', 'result': 'Pass'}
+{'roll_no': '103', 'name': 'Charlie Brown', 'maths': '45', 'physics': '50', 'chemistry': '48', 'total': '143', 'result': 'Fail'}
+{'roll_no': '104', 'name': 'Diana Prince', 'maths': '95', 'physics': '92', 'chemistry': '98', 'total': '285', 'result': 'Pass'}
+{'roll_no': '105', 'name': 'Evan Wright', 'maths': '60', 'physics': '55', 'chemistry': '62', 'total': '177', 'result': 'Pass'}
+{'roll_no': '106', 'name': 'Fiona Davis', 'maths': '88', 'physics': '85', 'chemistry': '90', 'total': '263', 'result': 'Pass'}
+{'roll_no': '107', 'name': 'George Miller', 'maths': '40', 'physics': '35', 'chemistry': '42', 'total': '117', 'result': 'Fail'}
+{'roll_no': '108', 'name': 'Hannah Lee', 'maths': '78', 'physics': '80', 'chemistry': '75', 'total': '233', 'result': 'Pass'}
